@@ -1,0 +1,150 @@
+body {
+    background-image: url(../imagens/fundo-ben$a-kioto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: Josefin sans;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao {
+    background-color:   #070d12;
+    width: 370px;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cartao .minhas-informacoes {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img {
+    width: 96px;
+    height: 140px;
+    border-radius: 50px;
+    border: 2px solid red;
+}
+
+.cartao .minhas-informacoes .nome {
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo {
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo {
+    margin-top: 15px;
+}
+
+.cartao .abas {
+    display: flex;
+}
+
+.cartao .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: backgrond-color 0.2s ease-in-out;
+}
+
+.abas img {
+    width: 30px;
+}
+
+.cartao .abas .aba.selecionado {
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas {
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover {
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao {
+    min-height: 30px;
+    padding: 15px;
+}
+
+.informacoes-abas .sub-titulo {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.informacoes-abas .informacao {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao {
+    font-size: 20px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoes-abas .descricao span {
+    color: red
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.redes-sociais li a {
+    background-color: grey;
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover {
+    opacity: 0.9;
+}
+
+.curriculo {
+    font-family: Josefin sans;
+    color: red;
+    font-size: 18px;
+}
+
+.redes-sociais .linkedin {
+    font-family: Josefin sans;
+    color: white;
+    background-color: #1d87db;
+    font-size: 18px;
+}
+
+.redes-sociais .github {
+    font-family: Josefin sans;
+    color: purple;
+    background-color: black;
+    font-size: 18px;
+}
